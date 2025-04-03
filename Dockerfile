@@ -9,7 +9,7 @@ COPY .env* ./
 
 # Sao chép tất cả các tệp trong thư mục src vào thư mục làm việc
 COPY src ./src
-COPY lock.js ./
+COPY main.js ./
 
 RUN npm install
 EXPOSE 5001
