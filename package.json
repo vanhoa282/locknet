@@ -38,6 +38,6 @@
   "dependencies": {
     "express": "^4.18.2",
     "cross-env": "^7.0.3",
-    "node-telegram-bot-api": "^0.66.0"  // Nếu đã thêm từ trước
+    "node-telegram-bot-api": "^0.66.0" 
 }
 }
