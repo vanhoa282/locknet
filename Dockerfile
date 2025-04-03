@@ -10,7 +10,7 @@ COPY key.json ./
 
 # Sao chép tất cả các tệp trong thư mục src vào thư mục làm việc
 COPY src ./src
-COPY main.js ./
+COPY lock.js ./
 
 RUN npm install
 EXPOSE 5001
